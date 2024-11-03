@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Excon';
+  src: url('./fonts/Excon-Regular.otf') format('opentype');
+}
+
+.signin-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 33px;
+  text-align: center;
+  font-family: 'Excon', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logo {
+  color: #36c857; /* Matching green color for HelpNet logo */
+  align-self: flex-start;
+  margin-bottom: 62px;
+}
+
+.signin-title {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.google-signin-button {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.google-icon {
+  margin-right: 8px;
+  width: 50px; /* Set the width to 20px */
+  height: 50px; /* Set the height to 20px */
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-input {
+  width: 100%;
+  padding: 15px 15px 15px 40px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  border: none;
+}
+
+.signin-button {
+  padding: 16px 40px;
+  background-color: #36c857; /* Green color for the login button */
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-footer {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.link {
+  color: #36c857;
+  text-decoration: none;
+}
